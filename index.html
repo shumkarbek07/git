@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Git</title>
+</head>
+<body>
+
+  <h1>GIT</h1>
+
+  <form onsubmit="getUsers(event)">
+   <input type="text" id="search">
+   <button type="submit">Search</button>
+
+   <div id="card" class="card">
+    <img id="img" src="" alt="">
+    <h1>Login: <span id="log"></span></h1>
+    <h1>ID: <span id="id"></span></h1>
+    <h1>Followers: <span id="followers"></span></h1>
+    <h1>Following: <span id="following"></span></h1>
+    <h1>Public repositories: <span id="public"></span></h1>
+   </div>
+  </form>
+  
+  <script src="index.js"></script>
+</body>
+</html>
